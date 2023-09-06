@@ -1,0 +1,26 @@
+import MATH
+
+q=input(Input the day of the month)
+m=input(Input the month (3 = March, 4 = April, 5 = May, ..., 14 = February))
+K=input(Input the year of the century)
+J=input(Input the  zero-based century (For example, the zero-based centuries for 1995 and 2000 are 19 and 20 respectively (not to be confused with the common ordinal century enumeration which indicates 20th for both cases).))
+
+v1=m+1
+v2=13v1
+v3=v25
+v4=math.floor(v3)
+v5=q+v4
+v6=v5+K
+v7=K4
+v8=math.floor(v7)
+v9=v6+v8
+v10=J4
+v11=math.floor(v10)
+v12=v9+v11
+v13=2J
+v14=v12+v13
+v15=v14%7
+
+h=v15
+
+print(h)
