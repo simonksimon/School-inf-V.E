@@ -12,7 +12,7 @@ def zobrazovacka():
     zt=temp
     canvas.itemconfig(textik,text=temp)
     zobraz_text=zobraz_text[1::]+zobraz_text[0]
-    canvas.after(100,"zobrazovacka")
+    canvas.after(100,zobrazovacka)
 
 canvas=tk.Canvas(width=500, height=100, bg="black")
 canvas.pack()
