@@ -54,5 +54,4 @@ for key in mesta:
     print(key)
     print(mesta[key])
 intothedeep(list(mesta.keys())[0],mesta) #intothedeep(next(iter(mesta)),mesta)
-
 win.mainloop()
