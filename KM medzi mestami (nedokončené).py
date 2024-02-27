@@ -1,3 +1,4 @@
+#https://requests.readthedocs.io/en/latest/user/quickstart/
 import requests
 page= requests.get('http://kolko-km-je.ubytovaniesr.sk/')
 page.encoding="windows-1250"
